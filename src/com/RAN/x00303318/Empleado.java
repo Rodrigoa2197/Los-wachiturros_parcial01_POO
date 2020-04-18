@@ -37,6 +37,7 @@ public abstract class Empleado extends Documento{
     //metodos
 
 }
+//ORIGINAL, COMO SE PIDE EN EL UML
 /*abstract class Empleado {
     protected String nombre = "\0";
     protected String puesto = "\0";

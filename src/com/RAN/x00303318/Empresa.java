@@ -26,6 +26,7 @@ public class Empresa extends Empleado {
         empleados.add(Empleado);
     }*/ /*COMPLETAR CLASE EMPLEADOS PARA SEGUIR*/
 }
+//ORIGINAL, COMO SE PIDE EN EL UML
 /*public class Empresa{
     private String nombre;
     private List<Empleado> planilla = new ArrayList<Empleado>();

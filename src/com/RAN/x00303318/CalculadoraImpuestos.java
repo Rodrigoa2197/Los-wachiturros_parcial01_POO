@@ -1,9 +1,10 @@
 package com.RAN.x00303318;
 
 public final class CalculadoraImpuestos {
-    private static double totalRenta = 0.00f;
-    private static double totalISSS = 0.00f;
-    private static double totalAFP = 0.00f;
+    //Atributos y se inicia el contador
+    private static double totalRenta = 0;
+    private static double totalISSS = 0;
+    private static double totalAFP = 0;
 
     private CalculadoraImpuestos(){
     }
@@ -19,7 +20,7 @@ public final class CalculadoraImpuestos {
         }
         //plaza fija
         else{
-            double afp = 0.0625f * a.getSalario();
+            double afp = 0.0625 * a.getSalario();
             double isss = 0.03 * a.getSalario();
             double restante = a.getSalario() - afp - isss;
             double renta = 0;
@@ -41,8 +42,7 @@ public final class CalculadoraImpuestos {
             return restante - renta;
         }
     }
-
-
+    //metodos
     public final String mostrarTotales(){
         return "Total de ISSS: " + totalISSS +
                 "Total de AFP: " + totalAFP +

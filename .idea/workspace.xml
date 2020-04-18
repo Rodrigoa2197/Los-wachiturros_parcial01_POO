@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f524168a-51ef-44d6-bcda-bbb2c1930aae" name="Default Changelist" comment="" />
+    <list default="true" id="f524168a-51ef-44d6-bcda-bbb2c1930aae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RAN/x00303318/CalculadoraImpuestos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/RAN/x00303318/CalculadoraImpuestos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RAN/x00303318/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/RAN/x00303318/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RAN/x00303318/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/RAN/x00303318/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/RAN/x00303318/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/RAN/x00303318/Empresa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1agG50FVehHvpB1o8AvImCcUvVw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,6 +67,7 @@
       <workItem from="1587153068772" duration="17669000" />
       <workItem from="1587236448421" duration="38000" />
       <workItem from="1587238139440" duration="14000" />
+      <workItem from="1587250450877" duration="1698000" />
     </task>
     <servers />
   </component>
@@ -84,10 +95,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="724" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587215741173" />
-    <state x="849" y="36" key="com.intellij.ide.util.TipDialog" timestamp="1587238139667">
+    <state x="849" y="36" key="com.intellij.ide.util.TipDialog" timestamp="1587250464007">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="849" y="36" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587238139667" />
+    <state x="849" y="36" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587250464007" />
     <state x="742" y="308" width="549" height="479" key="dock-window-1" timestamp="1587181712253">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

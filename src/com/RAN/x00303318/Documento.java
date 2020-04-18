@@ -1,5 +1,5 @@
 package com.RAN.x00303318;
-
+// Este hasta el momento no se le agrega una extensión
 public class Documento {
     //Atributos
     private String nombre;
