@@ -5,25 +5,26 @@ public final class CalculadoraImpuestos {
     private static double totalRenta = 0;
     private static double totalISSS = 0;
     private static double totalAFP = 0;
-
+    //Constructor
     private CalculadoraImpuestos(){
     }
-
-    //funcion sin excepciones
-    //si se repite el calculo de un empleado es como que si se le volviera a pagar
+    //Metodos
     public final double calcularPago(Empleado a){
-        //Servicio profesional
-        if(a instanceof ServicioProfesional){
-            double renta = 0.1f * a.getSalario();
+        if(a instanceof ServicioProfesional) {
+            double renta;
+            renta = 0.1f * a.getSalario();
             totalRenta += renta;
             return a.getSalario() - renta;
-        }
-        //plaza fija
-        else{
-            double afp = 0.0625 * a.getSalario();
-            double isss = 0.03 * a.getSalario();
-            double restante = a.getSalario() - afp - isss;
+        } else{
+            //Atributos y contador
+            double afp;
+            double isss;
+            double restante;
             double renta = 0;
+            //Se establece lo que se quiere dentro de cada variable
+            afp = 0.0625 * a.getSalario();
+            isss = 0.03 * a.getSalario();
+            restante = a.getSalario() - afp - isss;
             if(restante > 0.01 && restante < 472.00){
                 renta = 0;
             }
@@ -35,17 +36,14 @@ public final class CalculadoraImpuestos {
             }
             else if(restante > 2038.10){
                 renta = 0.3 * (restante - 2038.10) +288.57;
-            }
+            }else{}
             totalISSS += isss;
             totalAFP += afp;
             totalRenta += renta;
             return restante - renta;
         }
     }
-    //metodos
     public final String mostrarTotales(){
-        return "Total de ISSS: " + totalISSS +
-                "Total de AFP: " + totalAFP +
-                "Total de Renta: " + totalRenta;
+        return "Total de ISSS: " + totalISSS + "Total de AFP: " + totalAFP + "Total de Renta: " + totalRenta;
     }
 }
