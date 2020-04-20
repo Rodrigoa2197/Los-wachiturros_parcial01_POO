@@ -2,10 +2,7 @@ package com.RAN.x00303318;
 
 import java.awt.*;
 import java.util.List;
-<<<<<<< HEAD
 
-=======
->>>>>>> 8d44c5dd1e370daf0860136bf4d6e463b16065fa
 public abstract class Empleado{
     //Atributos
     protected String nombre;
@@ -44,8 +41,4 @@ public abstract class Empleado{
         documentos.removeIf(s -> (s.getNombre().equals(a)));
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8d44c5dd1e370daf0860136bf4d6e463b16065fa

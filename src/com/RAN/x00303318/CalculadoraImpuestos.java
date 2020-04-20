@@ -9,7 +9,7 @@ public final class CalculadoraImpuestos {
     private CalculadoraImpuestos(){
     }
     //Metodos
-    public final double calcularPago(Empleado a){
+    public static double calcularPago(Empleado a){
         if(a instanceof ServicioProfesional) {
             double renta;
             renta = 0.1f * a.getSalario();
@@ -43,7 +43,7 @@ public final class CalculadoraImpuestos {
             return restante - renta;
         }
     }
-    public final String mostrarTotales(){
+    public static final String mostrarTotales(){
         return "Total de ISSS: " + totalISSS + "Total de AFP: " + totalAFP + "Total de Renta: " + totalRenta;
     }
 }
