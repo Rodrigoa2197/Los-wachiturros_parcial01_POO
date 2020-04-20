@@ -8,7 +8,7 @@ public final class CalculadoraImpuestos {
 
     private CalculadoraImpuestos(){
     }
-//puto el que lo lea
+
     //funcion sin excepciones
     //si se repite el calculo de un empleado es como que si se le volviera a pagar
     public final double calcularPago(Empleado a){
